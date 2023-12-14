@@ -21,7 +21,7 @@ export const HomepageHero = () => (
     <HeroSubtitle className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
       We are Neuron Studios.
       <br className="hidden md:block" />
-      Animation, Modelling, Lighting, Stage visualisers & VFX.
+      3D, Animation, Modelling, Lighting, Stage visualisers & VFX.
     </HeroSubtitle>
     <Button
       className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:600ms]"
