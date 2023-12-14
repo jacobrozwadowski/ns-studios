@@ -6,7 +6,7 @@ export const ReelContainer = () => {
         autoPlay
         muted
         loop
-        src="/reel.mp4"
+        src="/neuron_reel.mp4"
         className={classNames(
           "relative z-10 rounded-lg transition-opacity delay-[680ms]"
         )}

@@ -6,7 +6,7 @@ export const ReelController = () => {
         <video
           controls
           loop
-          src="/reel.mp4"
+          src="/neuron_reel.mp4"
           className={classNames(
             "relative mt-8 rounded-xl border border-white/10 transition-opacity delay-[680ms]"
           )}
