@@ -25,6 +25,7 @@ module.exports = {
       grey: "#858699",
       "grey-dark": "#222326",
       "primary-text": "#ffff85",
+      yellow: "#fffc04",
     },
     spacing: {
       0: "0",
@@ -44,6 +45,8 @@ module.exports = {
       14: "5.6rem",
       15: "6rem",
       16: "6.4rem",
+      24: "8.2rem",
+      17: "12rem",
       "navigation-height": "var(--navigation-height)",
     },
     backgroundImage: {
