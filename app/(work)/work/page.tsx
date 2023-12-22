@@ -3,6 +3,7 @@ import { Container } from "../../../components/container";
 import { HeroTitle, HeroSubtitle } from "../../../components/hero";
 import LoadingSpinner from "../../../components/ux/loading";
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   openGraph: {
@@ -39,7 +40,6 @@ export default function WorkPage() {
         "
       ></video>
       <div className="h-11"></div>
-
       <h1 className="mt-11 ml-1 text-2xl font-bold tracking-tighter">
         Saudi E-Leagues
       </h1>
@@ -56,6 +56,39 @@ export default function WorkPage() {
         "
         ></video>
       </Suspense>
+      <h1 className="mt-11 ml-1 text-2xl font-bold tracking-tighter"></h1>
+      <Suspense fallback={<LoadingSpinner />}>
+        <img
+          src="/img/ETHR0116-edit-f1.png"
+          alt="img1"
+          className="rounded-xl border border-white/20"
+        />
+      </Suspense>
+      <h1 className="mt-11 ml-1 text-2xl font-bold tracking-tighter"></h1>
+      <Suspense fallback={<LoadingSpinner />}>
+        <img
+          src="/img/FmaJvjzaUAIdJbj.png"
+          alt="img2"
+          className="rounded-xl border border-white/20"
+        />
+      </Suspense>
+      <h1 className="mt-11 ml-1 text-2xl font-bold tracking-tighter"></h1>
+      <Suspense fallback={<LoadingSpinner />}>
+        <img
+          src="/img/HighresScreenshot00009.png"
+          alt="img2"
+          className="rounded-xl border border-white/20"
+        />
+      </Suspense>
+      <h1 className="mt-11 ml-1 text-2xl font-bold tracking-tighter"></h1>
+      <Suspense fallback={<LoadingSpinner />}>
+        <img
+          src="/img/HighresScreenshot00004.png"
+          alt="img2"
+          className="rounded-xl border border-white/20"
+        />
+      </Suspense>
+
       <div className="h-11"></div>
     </Container>
   );
