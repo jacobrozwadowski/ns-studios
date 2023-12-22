@@ -56,14 +56,7 @@ export default function WorkPage() {
         "
         ></video>
       </Suspense>
-      <h1 className="mt-11 ml-1 text-2xl font-bold tracking-tighter"></h1>
-      <Suspense fallback={<LoadingSpinner />}>
-        <img
-          src="/img/ETHR0116-edit-f1.png"
-          alt="img1"
-          className="rounded-xl border border-white/20"
-        />
-      </Suspense>
+
       <h1 className="mt-11 ml-1 text-2xl font-bold tracking-tighter"></h1>
       <Suspense fallback={<LoadingSpinner />}>
         <img
