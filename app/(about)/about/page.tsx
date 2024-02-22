@@ -23,18 +23,15 @@ export default function Homepage() {
           <HeroTitle>About us</HeroTitle>
 
           <p className="text-md">
-            <span className="font-bold text-yellow">Neuron Studios</span> first
-            birthed from the spark of an idea,
+            <span className="font-bold text-yellow">Neuron Studios</span> is a 
+            collective of passionate creators specializing in 3D visualization,
             <br />
-            evolving into a passionate collective of creatives. <br />
-            Specialiting in 3D visualuzation, VFX, stage design anre more,{" "}
+            VFX, stage design and more. <br />
+            Our team will work to breathe life into{" "}
             <br />
-            we breathe life into narratives that captivate. <br />
-            Years of experience, dedication and love for our craft made us who
-            we are and <br />
-            we will continue to push the boundaries through innovation and
-            creativity <br />
-            crafting past the impossible.
+            your ideas and narratives to captivate any audience.<br />
+            With 10+ combined years of experience, our team's dedication and love for our <br />
+            craft has built an organization that will endeavor to push the boundaries of graphics and design
           </p>
           <div className="flex flex-col items-start justify-start">
             <h1 className="text-gradient mt-12 text-4xl font-bold md:text-6xl">
